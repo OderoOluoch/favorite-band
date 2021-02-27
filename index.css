@@ -1,32 +1,14 @@
+body{
+    padding:50px;
+    margin: 20px;
+    background-image: url("images/band.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
-
-p{
-    background-color:#f0f0f0;
-    border:1px solid black;
-    padding:10px;
-    font-family: 'monaco', 'times', serif;
-
+    height: 100%;
+    background-size: cover;
+    background-position: center;
 }
-
-
-
-a:hover {
-    color: green;
-    font-size: x-large;
-  }
-
-
-.band-member-section{
-    display: inline-block;
-    background-color:lightgray
-}
-
-
-
-
-
-
-
 
 
 .intro-section{
@@ -47,10 +29,15 @@ p.intro-section{
     
 }
 .about-band{
-    color: red;
     padding: 30px;
     border-radius: 15px;
     border: cyan;
+    background-color: darkgray;
     
+}
+.video{
+    padding: 30px;
+    justify-content: center;
+    display:block;
 }
 
