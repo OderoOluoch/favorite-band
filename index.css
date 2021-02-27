@@ -11,7 +11,7 @@ p{
 
 }
 *{
-    text-align:center;
+    
 }
 
 h1{
@@ -24,11 +24,15 @@ a:hover {
     font-size: x-large;
   }
 
-  li{
-    
-}
 
 .band-member-section{
-    display: block;
+    display: inline-block;
     background-color:lightgray
+}
+
+
+
+.intro-section{
+    text-align:center;
+    padding-top: 50px;
 }
