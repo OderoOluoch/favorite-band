@@ -21,7 +21,9 @@ img {
     border-radius: 15px;
 }
 .banner-text{
-    color: rgb(89, 165, 165);
+    color: rgb(211, 152, 43);
+    background-color: thistle;
+    border-radius: 15px;
 }
 
 p.intro-section{
@@ -29,10 +31,10 @@ p.intro-section{
     
 }
 .about-band{
-    padding: 30px;
+    padding: 15px;
     border-radius: 15px;
     border: cyan;
-    background-color: darkgray;
+    background-color: white;
     
 }
 .video{
@@ -40,4 +42,9 @@ p.intro-section{
     justify-content: center;
     display:block;
 }
-
+.band-member-section{
+    background-color: white;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 15px;
+}
