@@ -18,7 +18,9 @@ body{
 }
 
 img {
-    border-radius: 15px;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 15px;
 }
 .banner-text{
     color: rgb(211, 152, 43);
@@ -47,4 +49,19 @@ p.intro-section{
     border-radius: 15px;
     margin: 15px;
     padding: 15px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+   
+  }
+.row:after {
+    content: "";
+    
+    clear: both;
+  }
+
+.pic{
+    align-items: center;
 }
