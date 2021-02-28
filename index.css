@@ -29,9 +29,11 @@ img {
     margin: 15px;
 }
 .banner-text{
-    color: rgb(211, 152, 43);
-    background-color: thistle;
+    color: white;
+    background-color: #4f0147;
     border-radius: 15px;
+    margin: 15px;
+    padding: 25px;
 }
 
 p.intro-section{
@@ -82,11 +84,13 @@ p.intro-section{
 /* unvisited link */
 a:link {
     color: #FF0000;
+    text-decoration: none;
   }
   
   /* visited link */
   a:visited {
     color: #00FF00;
+    text-decoration: none;
   }
   
   /* mouse over link */
@@ -97,6 +101,7 @@ a:link {
   /* selected link */
   a:active {
     color: #0000FF;
+    text-decoration: none;
   }
 
   #list-of-songs-section{
@@ -107,7 +112,9 @@ a:link {
 
   }
   ul{
-    width: 100px;
+    border: 3px dotted grey;
+    border-radius: 12px;
+    width: 200px;
     height: 100px;
     overflow: auto;
   }
