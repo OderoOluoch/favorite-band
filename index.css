@@ -1,5 +1,5 @@
 body{
-    font-family: 'monaco', 'times', serif;
+    
     padding:50px;
     margin: 20px;
     background-image: url("images/band.jpg");
@@ -28,18 +28,17 @@ img {
     padding: 15px;
     margin: 15px;
 }
+
 .banner-text{
     color: white;
     background-color: #4f0147;
     border-radius: 15px;
     margin: 15px;
     padding: 25px;
+    font-weight: 800;
+    font-size: 30px;
 }
 
-p.intro-section{
-    font: 30px
-    
-}
 .about-band{
     padding: 15px;
     border-radius: 15px;
