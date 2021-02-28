@@ -1,4 +1,5 @@
 body{
+    font-family: 'monaco', 'times', serif;
     padding:50px;
     margin: 20px;
     background-image: url("images/band.jpg");
@@ -19,6 +20,7 @@ body{
 
 p{
     
+    font: 20px Arial, sans-serif;
 }
 
 img {
@@ -33,7 +35,7 @@ img {
 }
 
 p.intro-section{
-    font-size: large;
+    font: 30px
     
 }
 .about-band{
@@ -55,6 +57,13 @@ p.intro-section{
     padding: 15px;
 }
 
+#breaker-image-section{
+    background-color: white;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 15px;
+}
+
 .column {
     float: left;
     width: 50%;
@@ -69,3 +78,31 @@ p.intro-section{
 .pic{
     align-items: center;
 }
+
+/* unvisited link */
+a:link {
+    color: #FF0000;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #00FF00;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #FF00FF;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #0000FF;
+  }
+
+  #list-of-songs-section{
+    background-color: white;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 15px;
+
+  }
